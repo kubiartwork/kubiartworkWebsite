@@ -5,11 +5,10 @@ height: 100%;
 }
 
 body{
-background: black;
 color: #fff;
 font-family:  'Raleway', sans-serif;
-/*background: url(../images/Vacancy_BKG.jpg) no-repeat;
-background-size: cover;*/
+background: url(../images/peacocks2.png) no-repeat black center;
+background-size: cover;
 }
 
 /************GLOBAL STYLES END***********/
@@ -22,74 +21,46 @@ border: none;
 border-radius: 0px;
 color: white;
 text-align: center;
+position: fixed;
+top: 0;
+font-family: 'Lato', sans-serif;
+width: 100%;
 }
 
 .navbar-default .navbar-nav>li>a{
 color: white;
 }
 
+
 /************NAVBAR END***********/
 
 /************HOMEPAGE MAIN CONTAINER BEGIN***********/
 
-.HomePage-wrapper img{
+.HomePage-Main-Container{
+display: table;
 width: 100%;
-z-index: -100;   
+height: 100%; /* For at least Firefox */
+min-height: 100%;
 }
 
-.HomePage-Main-Container{
+.HomePage-Overlay-Text{
+display: table-cell;
+vertical-align: top;
+vertical-align: middle;
 text-align: center;
-text-shadow: 0 1px 3px rgba(0,0,0,.5);
-
+padding: 30px;
 }
 
 
 .HomePage-Overlay-Text h1{
-font-family: 'Permanent Marker', cursive;
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
 font-size: 80px;
 color: whitesmoke;
 text-align: center;
+padding: 0 20px;
 }
-
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.HomePage-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-}
-.HomePage-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-.HomePage-Main-Container {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-/* Padding for spacing */
-.HomePage-Overlay-Text {
-  padding: 30px;
-}
-
-.cover {
-  padding: 0 20px;
-}
-
-.navbar {
-position: fixed;
-top: 0;
-}
-  
-.HomePage-wrapper-inner {
-vertical-align: middle;
-}
-    
-.navbar,
-.HomePage-Main-Container {width: 100%; /* Must be percentage or pixels for horizontal alignment */}
-
 
 
 /************HOMEPAGE MAIN CONTAINER END***********/
+
