@@ -7,7 +7,7 @@ height: 100%;
 body{
 color: #fff;
 font-family:  'Raleway', sans-serif;
-background: url(./images/peacocks2.png) no-repeat black center;
+background: url(../images/peacocks2.png) no-repeat black center;
 background-size: cover;
 }
 
