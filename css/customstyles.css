@@ -30,6 +30,14 @@ width: 100%;
 color: white;
 }
 
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
 
 /************NAVBAR END***********/
 
