@@ -119,11 +119,13 @@ text-align: center;
 }
 
 .gst-btn-Store {
+  margin: 25px;
   display: inline-block;
-  width: 200px;
+  width: 300px;
   padding: 8px;
-  color: #fff;
-  border: 2px solid #fff;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  border-radius: none;
   text-align: center;
   outline: none;
   text-decoration: none;
@@ -134,7 +136,7 @@ text-align: center;
 .gst-btn-Store:hover,
 .gst-btn-Store:focus,
 .gst-btn-Store:active {
-  background-color: #fff;
+  background-color: whitesmoke;
   color: #000;
   -webkit-transition: background-color 0.3s ease-in, color 0.3s ease-in;
   transition: background-color 0.3s ease-in,
