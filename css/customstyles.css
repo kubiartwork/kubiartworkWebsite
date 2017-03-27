@@ -116,8 +116,29 @@ text-transform: uppercase;
 font-size: 35px;
 color: whitesmoke;
 text-align: center;
-padding: 0 20px;
 }
 
+.gst-btn-Store {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.gst-btn-Store:hover,
+.gst-btn-Store:focus,
+.gst-btn-Store:active {
+  background-color: #fff;
+  color: #000;
+  -webkit-transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
 
 /************STORE CONTAINER END***********/
