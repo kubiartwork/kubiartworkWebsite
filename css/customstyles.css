@@ -84,3 +84,40 @@ padding: 0 20px;
 @media (min-width: 768px) {.HomePage-Overlay-Text h1{font-size: 80px}}
 
 /************HOMEPAGE MAIN CONTAINER END***********/
+
+/************STORE CONTAINER BEGIN***********/
+
+.Store-BKG-Image{
+width: 100%;
+height: 100%; /* For at least Firefox */
+min-height: 100%;
+background: black;
+}
+
+.Store-Main-Container{
+display: table;
+width: 100%;
+height: 100%; /* For at least Firefox */
+min-height: 100%;
+}
+
+.Store-Overlay-Text{
+display: table-cell;
+vertical-align: top;
+vertical-align: middle;
+text-align: center;
+padding: 30px;
+}
+
+
+.Store-Overlay-Text .btn{
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+font-size: 35px;
+color: whitesmoke;
+text-align: center;
+padding: 0 20px;
+}
+
+
+/************STORE CONTAINER END***********/
