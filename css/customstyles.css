@@ -152,6 +152,66 @@ padding: 0 20px;
     }
 }
 
+/**BKG ANIMATION**/
+.fade-in{
+    animation: fade-in ease 1s;
+    animation-iteration-count: 1;
+    -webkit-animation: fade-in ease 1s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation: fade-in ease 1s;
+    -moz-animation-iteration-count: 1;
+    -o-animation: fade-in ease 1s;
+    -o-animation-iteration-count: 1;
+    -ms-animation: fade-in ease 1s;
+    -ms-animation-iteration-count: 1;
+}
+
+@keyframes fade-in{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes slide-up-fade-in{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes slide-up-fade-in {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-o-keyframes slide-up-fade-in {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-ms-keyframes slide-up-fade-in {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+
 /************HOMEPAGE MAIN CONTAINER END***********/
 
 /************STORE CONTAINER BEGIN***********/
