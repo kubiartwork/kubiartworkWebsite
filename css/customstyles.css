@@ -85,15 +85,15 @@ padding: 0 20px;
 
 /**TEXT ANIMATION**/
 .slide-up-fade-in{
-    animation: slide-up-fade-in ease 1s;
+    animation: slide-up-fade-in ease 2s;
     animation-iteration-count: 1;
-    -webkit-animation: slide-up-fade-in ease 1s;
+    -webkit-animation: slide-up-fade-in ease 2s;
     -webkit-animation-iteration-count: 1;
-    -moz-animation: slide-up-fade-in ease 1s;
+    -moz-animation: slide-up-fade-in ease 2s;
     -moz-animation-iteration-count: 1;
-    -o-animation: slide-up-fade-in ease 1s;
+    -o-animation: slide-up-fade-in ease 2s;
     -o-animation-iteration-count: 1;
-    -ms-animation: slide-up-fade-in ease 1s;
+    -ms-animation: slide-up-fade-in ease 2s;
     -ms-animation-iteration-count: 1;
 }
 
