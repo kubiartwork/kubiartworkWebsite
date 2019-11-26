@@ -272,16 +272,9 @@ text-align: center;
 
 .Gallery-Main-Container{
 background: black;
-display: table;
-width: 100%;
-height: 100%; /* For at least Firefox */
-min-height: 100%;
-    padding: 0px;
 }
 
 .Gallery-Block-Container{
-display: block;
-vertical-align: top;
 vertical-align: middle;
 text-align: center;
 margin-top: 100px;
