@@ -280,6 +280,9 @@ text-align: center;
 margin-top: 100px;
 }
 
+.Gallery-Block-Container img {
+    margin-bottom: 30px;
+}
 
 
 /************GALLERY CONTAINER END***********/
