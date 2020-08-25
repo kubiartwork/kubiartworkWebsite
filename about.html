@@ -73,11 +73,28 @@
         <div class="Store-Main-Container container">
           <div class="Store-Overlay-Text row">
             <div class="col-xs-12 text-center">
-                <h2>Coming Soon...</h2>
+                <h2>Eclectic art, but make it spooky...</h2>
+              <br/>
+              
+              <p>
+                When I was in grade school, I started my first small business. I would make Halloween decorations out of construction paper and sell them to my 
+                classmates for nickels and dimes. There were such greats as "ghost in pumpkin," "ghost and gravestone," and "spider's web with spider." That 
+                one was a quarter because it required string. I now have my own Etsy shop and two print on demand stores at Society6 and TeePublic. I love creating art and I hope
+                that my art brings you as much joy as it did for me.
+              <p/>
+              <p>Stay spooky, friends 🖤⚡☠️</p>
             </div>
           </div>
         </div>
-
+  
+  
+  <!-----FOOTER CONTENT BEGIN-----> 
+  <footer class="footer" style="background: black;">
+      <div class="container text-center">
+        <h6 class="text-muted">Copyright © <span class="currYear"></span> Kristyn Kubiak. All rights reserved.</h6>
+      </div>
+    </footer>
+  <!-----FOOTER CONTENT END----->
     
  <!-----MAIN CONTENT END----->     
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -88,7 +105,17 @@
      
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-   
+  <!--Page Scripts-->
+  
+<script>
+function getCurrentYear() {
+  var d = new Date();
+  var n = d.getFullYear();
+  $(".currYear").text(n);
+};
+  
+ getCurrentYear(); 
+</script> 
       
 </body> 
     
