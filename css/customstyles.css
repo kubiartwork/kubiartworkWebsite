@@ -23,6 +23,7 @@ position: fixed;
 top: 0;
 font-family: 'Lato', sans-serif;
 width: 100%;
+z-index: 999;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -44,6 +45,13 @@ color: white;
 }
 
 /************NAVBAR END***********/
+/************FOOTER BEGIN***********/
+.footer{
+position: absolute;
+width: 100%;
+background-color: black;
+}
+/************FOOTER END***********/
 
 /************HOMEPAGE MAIN CONTAINER BEGIN***********/
 
