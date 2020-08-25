@@ -84,7 +84,14 @@
           </div>
         </div>
 
-    
+      <!-----FOOTER CONTENT BEGIN-----> 
+  <footer class="footer" style="background: black;">
+      <div class="container text-center">
+        <h6 class="text-muted">Copyright © <span class="currYear"></span> Kristyn Kubiak. All rights reserved.</h6>
+      </div>
+    </footer>
+  <!-----FOOTER CONTENT END----->
+  
  <!-----MAIN CONTENT END----->     
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
@@ -94,7 +101,17 @@
      
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-   
+   <!--Page Scripts-->
+  
+<script>
+function getCurrentYear() {
+  var d = new Date();
+  var n = d.getFullYear();
+  $(".currYear").text(n);
+};
+  
+ getCurrentYear(); 
+</script>
       
 </body> 
     
