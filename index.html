@@ -84,7 +84,7 @@
   <!-----FOOTER CONTENT BEGIN-----> 
   <footer class="footer" style="background: black;">
       <div class="container text-center">
-        <p class="text-muted">Copyright © <span class="currYear"></span> Kristyn Kubiak. All rights reserved.</p>
+        <h6 class="text-muted">Copyright © <span class="currYear"></span> Kristyn Kubiak. All rights reserved.</h6>
       </div>
     </footer>
   <!-----FOOTER CONTENT END----->    
@@ -105,7 +105,6 @@
 function getCurrentYear() {
   var d = new Date();
   var n = d.getFullYear();
-  //document.getElementById("demo").innerHTML = n;
   $(".currYear").text(n);
 };
   
