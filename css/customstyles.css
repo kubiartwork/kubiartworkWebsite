@@ -288,23 +288,23 @@ text-align: center;
 }
 
 #mce-EMAIL{
-    border: 1px solid #2b2b2b;
-    border-radius: 0;
-    background: #2b2b2b;
+    border: 1px solid #2b2b2b !important;
+    border-radius: 0 !important;
+    background: #2b2b2b !important;
 }
 
 #mc-embedded-subscribe{
-    background: black;
-    color: whitesmoke;
-    border: 1px solid whitesmoke;
-    border-radius: 0;
+    background: black !important;
+    color: whitesmoke !important;
+    border: 1px solid whitesmoke !important;
+    border-radius: 0 !important;
 } 
 
 #mc-embedded-subscribe:hover,
 #mc-embedded-subscribe:active,
 #mc-embedded-subscribe:focus{
-    background: whitesmoke;
-    color: black;
+    background: whitesmoke !important;
+    color: black !important;
     -webkit-transition: background-color 0.3s ease-in, color 0.3s ease-in;
   transition: background-color 0.3s ease-in,
               color 0.3s ease-in;
