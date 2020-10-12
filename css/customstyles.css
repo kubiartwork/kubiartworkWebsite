@@ -277,7 +277,19 @@ text-align: center;
 
 /************STORE CONTAINER END***********/
 
-/************STORE CONTAINER BEGIN***********/
+/************ABOUT CONTAINER BEGIN***********/
+#mc_embed_signup {
+    background:#000; 
+    color: white; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+    width:100%; 
+    margin-top:20px;
+}
+
+/************ABOUT CONTAINER END***********/
+
+/************GALLERY CONTAINER BEGIN***********/
 
 .Gallery-Main-Container{
 background: black;
