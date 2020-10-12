@@ -287,6 +287,29 @@ text-align: center;
     margin-top:20px;
 }
 
+#mce-EMAIL{
+    border: 1px solid #2b2b2b;
+    border-radius: 0;
+    background: #2b2b2b;
+}
+
+#mc-embedded-subscribe{
+    background: black;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 0;
+} 
+
+#mc-embedded-subscribe:hover,
+#mc-embedded-subscribe:active,
+#mc-embedded-subscribe:focus{
+    background: whitesmoke;
+    color: black;
+    -webkit-transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
+
 /************ABOUT CONTAINER END***********/
 
 /************GALLERY CONTAINER BEGIN***********/
