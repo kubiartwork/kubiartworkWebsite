@@ -339,3 +339,13 @@ color: #ffffff !important;
 
 
 /************SOCIAL CONTAINER END***********/
+
+.Gallery-Block-Container img {
+  opacity: 1;
+  transition: opacity 0.3s;
+
+	&[data-src] {
+		opacity: 0;
+	}
+}
+
