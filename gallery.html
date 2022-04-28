@@ -245,7 +245,7 @@
     $(document).on('click', '[data-toggle="lightbox"]', function(event) {
                 event.preventDefault();
                 $(this).ekkoLightbox();
-                $('img').bind('contextmenu', function(e) {
+                $(this).bind('contextmenu', function(e) {
                   return false;
                 }); 
      });
