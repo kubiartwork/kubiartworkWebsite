@@ -19,6 +19,7 @@
       
     <link href="./css/customstyles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
          
     <!----CUSTOM STYLES END----->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -84,7 +85,7 @@
                 <div class="col-md-12">
                   <a
                     href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg"
-                    data-size="1600x1067"
+                    data-size="1600x1067" data-toggle="lightbox"
                   >
                     <img
                       alt="picture"
@@ -203,9 +204,10 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
      
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-            <!--lazy load-->
-            <script type="application/javascript">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+  <!--lazy load-->
+  <script type="application/javascript">
               document.addEventListener("DOMContentLoaded", function() {
   var lazyloadImages = document.querySelectorAll("img.lazy");    
   var lazyloadThrottleTimeout;
@@ -237,6 +239,14 @@
   window.addEventListener("orientationChange", lazyload);
 });
               </script>       
+  
+  <!--lightbox-->
+  <script type="application/javascript">
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+     });
+  </script>
       
 </body> 
     
