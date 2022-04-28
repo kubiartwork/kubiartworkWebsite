@@ -98,6 +98,12 @@
           <img alt="picture" src="https://www.dropbox.com/s/elgukyl3nbo7gzu/mermaid1_final_web.jpg?raw=1" class="img-responsive slide-up-fade-in" />
         </a>
       </div>
+                        <!--test-->
+                         <div class="col-md-12">
+        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(151).jpg" data-size="1600x1067">
+          <img alt="picture" data-src="https://www.dropbox.com/s/elgukyl3nbo7gzu/mermaid1_final_web.jpg?raw=1" class="img-responsive slide-up-fade-in" />
+        </a>
+      </div>
                       </div>
                     </div>
                     
@@ -171,7 +177,38 @@
      
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-         
+            <1--lazy load-->
+            <script type="application/javascript">
+              document.addEventListener("DOMContentLoaded", function() {
+  var lazyloadImages = document.querySelectorAll("img.lazy");    
+  var lazyloadThrottleTimeout;
+  
+  function lazyload () {
+    if(lazyloadThrottleTimeout) {
+      clearTimeout(lazyloadThrottleTimeout);
+    }    
+    
+    lazyloadThrottleTimeout = setTimeout(function() {
+        var scrollTop = window.pageYOffset;
+        lazyloadImages.forEach(function(img) {
+            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+        });
+        if(lazyloadImages.length == 0) { 
+          document.removeEventListener("scroll", lazyload);
+          window.removeEventListener("resize", lazyload);
+          window.removeEventListener("orientationChange", lazyload);
+        }
+    }, 20);
+  }
+  
+  document.addEventListener("scroll", lazyload);
+  window.addEventListener("resize", lazyload);
+  window.addEventListener("orientationChange", lazyload);
+});
+              </script>       
       
 </body> 
     
