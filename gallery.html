@@ -245,13 +245,14 @@
     $(document).on('click', '[data-toggle="lightbox"]', function(event) {
                 event.preventDefault();
                 $(this).ekkoLightbox();
-                $(this).bind('contextmenu', function(e) {
-                  return false;
-                }); 
      });
   </script>
   <script type="application/javascript">
   $('img').bind('contextmenu', function(e) {
+    return false;
+  }); 
+    
+      $('.ekko-lightbox-item img').bind('contextmenu', function(e) {
     return false;
   }); 
   </script>
