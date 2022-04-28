@@ -90,13 +90,13 @@
 
       <div class="col-md-12">
         <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg" data-size="1600x1067">
-          <img alt="picture" data-src="https://www.dropbox.com/s/rxyznx03gmlry7j/turnpractice3_web.jpg?raw=1" class="img-responsive slide-up-fade-in lazy" />
+          <img alt="picture" data-src="https://www.dropbox.com/s/rxyznx03gmlry7j/turnpractice3_web.jpg?raw=1" src="https://www.dropbox.com/s/chbuvcdjhbki74g/blank.png?raw=1" class="img-responsive lazy" />
         </a>
       </div>
 
                          <div class="col-md-12">
         <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(151).jpg" data-size="1600x1067">
-          <img alt="picture" data-src="https://www.dropbox.com/s/elgukyl3nbo7gzu/mermaid1_final_web.jpg?raw=1" class="img-responsive slide-up-fade-in lazy" />
+          <img alt="picture" data-src="https://www.dropbox.com/s/elgukyl3nbo7gzu/mermaid1_final_web.jpg?raw=1"  src="https://www.dropbox.com/s/chbuvcdjhbki74g/blank.png?raw=1" class="img-responsive lazy" />
         </a>
       </div>
                       </div>
@@ -113,13 +113,13 @@
 
       <div class="col-md-12">
         <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(148).jpg" data-size="1600x1067">
-          <img alt="picture" data-src="https://www.dropbox.com/s/kd604m3orpii11b/bowie1_web.jpg?raw=1" class="img-responsive slide-up-fade-in lazy" />
+          <img alt="picture" data-src="https://www.dropbox.com/s/kd604m3orpii11b/bowie1_web.jpg?raw=1"  src="https://www.dropbox.com/s/chbuvcdjhbki74g/blank.png?raw=1" class="img-responsive lazy" />
         </a>
       </div>
 
       <div class="col-md-12">
         <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg" data-size="1600x1067">
-          <img alt="picture" data-src="https://www.dropbox.com/s/fp62ak28mgph9rf/animeGirl_web.jpg?raw=1" class="img-responsive slide-up-fade-in lazy" />
+          <img alt="picture" data-src="https://www.dropbox.com/s/fp62ak28mgph9rf/animeGirl_web.jpg?raw=1"  src="https://www.dropbox.com/s/chbuvcdjhbki74g/blank.png?raw=1" class="img-responsive lazy" />
         </a>
       </div>
                       </div>
@@ -136,7 +136,7 @@
                     
       <div class="col-md-12">
         <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg" data-size="1600x1067">
-          <img alt="picture" data-src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg" class="img-responsive slide-up-fade-in lazy">
+          <img alt="picture" data-src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg"  src="https://www.dropbox.com/s/chbuvcdjhbki74g/blank.png?raw=1" class="img-responsive lazy">
         </a>
       </div>
                       </div>
@@ -189,6 +189,7 @@
             if(img.offsetTop < (window.innerHeight + scrollTop)) {
               img.src = img.dataset.src;
               img.classList.remove('lazy');
+              img.classList.add('slide-up-fade-in');
             }
         });
         if(lazyloadImages.length == 0) { 
