@@ -5,4 +5,4 @@ function getCurrentYear() {
   $(".currYear").text(n);
 };
   
- getCurrentYear(); 
+
