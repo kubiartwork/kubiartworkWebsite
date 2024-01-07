@@ -263,6 +263,16 @@ vertical-align: middle;*/
   flex-wrap: wrap;
 }
 
+.contactMeContainer{
+  background: #1d0235;
+  z-index: 50;
+  margin: 30px 30px 30px -30px;
+}
+
+.contactMeContainer p{
+  padding: 20px;
+}
+
 /************HOMEPAGE MAIN CONTAINER END***********/
 
 /************STORE CONTAINER BEGIN***********/
