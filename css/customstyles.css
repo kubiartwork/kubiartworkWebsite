@@ -1,13 +1,14 @@
 /************GLOBAL STYLES BEGIN***********/
 
-html, body {
-height: 100%;
+html,
+body {
+  height: 100%;
 }
 
-body{
-color: #fff;
-font-family:  'Lato', sans-serif;
-background-color: black;    
+body {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  background-color: black;
 }
 
 /************GLOBAL STYLES END***********/
@@ -15,243 +16,279 @@ background-color: black;
 /************NAVBAR BEGIN***********/
 
 .navbar {
-background: rgba(0, 0, 0, 0.9);
-border: none;
-border-radius: 0px;
-color: white;
-text-align: center;
-position: fixed;
-top: 0;
-font-family: 'Lato', sans-serif;
-width: 100%;
-z-index: 999;
+  background: rgba(0, 0, 0, 0.9);
+  border: none;
+  border-radius: 0px;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  z-index: 999;
 }
 
-.navbar-default .navbar-nav>li>a{
-color: #61e9c9;
-padding: 15px 65px;
+.navbar-default .navbar-nav > li > a {
+  color: #61e9c9;
+  padding: 15px 65px;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a:focus{
-color: white;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
 }
 
 .navbar .navbar-nav {
-    display: inline-block;
-    float: none;
+  display: inline-block;
+  float: none;
 }
 
 .navbar .navbar-collapse {
-    text-align: center;
+  text-align: center;
 }
 
 /************NAVBAR END***********/
 /************FOOTER BEGIN***********/
-.footer{
-position: absolute;
-width: 100%;
-background-color: black;
+.footer {
+  position: absolute;
+  width: 100%;
+  background-color: black;
 }
 /************FOOTER END***********/
 
 /************HOMEPAGE MAIN CONTAINER BEGIN***********/
 
-.HomePage-BKG-Image{
-/*width: 100%;*/
-/*height: 100%;*/ /* For at least Firefox */
-/*min-height: 100%;*/
-background: url(https://s3.amazonaws.com/content.kubiartwork.com/images/background/peacocks2.png) no-repeat black center;
-background-size: cover;
+.HomePage-BKG-Image {
+  /*width: 100%;*/
+  /*height: 100%;*/ /* For at least Firefox */
+  /*min-height: 100%;*/
+  background: url(https://s3.amazonaws.com/content.kubiartwork.com/images/background/peacocks2.png)
+    no-repeat black center;
+  background-size: cover;
   background-attachment: fixed;
 }
 
-.HomePage-Main-Container{
-display: table;
-width: 100%;
-height: 100%; /* For at least Firefox */
-min-height: 100%;
+.HomePage-Main-Container {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
 }
 
-.HomePage-Overlay-Text{
-/*display: table-cell;
+.HomePage-Overlay-Text {
+  /*display: table-cell;
 vertical-align: top;
 vertical-align: middle;*/
-text-align: center;
-padding: 30px;
+  text-align: center;
+  padding: 30px;
 }
 
-
-.HomePage-Overlay-Text h1{
-font-family: 'Lato', sans-serif;
-text-transform: uppercase;
-font-size: 35px;
-color: whitesmoke;
-text-align: center;
-padding: 0 20px;
+.HomePage-Overlay-Text h1 {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 35px;
+  color: whitesmoke;
+  text-align: center;
+  padding: 0 20px;
 }
 
-@media (min-width: 481px) {.HomePage-Overlay-Text h1{font-size: 52px}}
-@media (min-width: 768px) {.HomePage-Overlay-Text h1{font-size: 80px}}
+@media (min-width: 481px) {
+  .HomePage-Overlay-Text h1 {
+    font-size: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .HomePage-Overlay-Text h1 {
+    font-size: 80px;
+  }
+}
 
 /**TEXT ANIMATION**/
-.slide-up-fade-in{
-    animation: slide-up-fade-in ease 2s;
-    animation-iteration-count: 1;
-    -webkit-animation: slide-up-fade-in ease 2s;
-    -webkit-animation-iteration-count: 1;
-    -moz-animation: slide-up-fade-in ease 2s;
-    -moz-animation-iteration-count: 1;
-    -o-animation: slide-up-fade-in ease 2s;
-    -o-animation-iteration-count: 1;
-    -ms-animation: slide-up-fade-in ease 2s;
-    -ms-animation-iteration-count: 1;
+.slide-up-fade-in {
+  animation: slide-up-fade-in ease 2s;
+  animation-iteration-count: 1;
+  -webkit-animation: slide-up-fade-in ease 2s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation: slide-up-fade-in ease 2s;
+  -moz-animation-iteration-count: 1;
+  -o-animation: slide-up-fade-in ease 2s;
+  -o-animation-iteration-count: 1;
+  -ms-animation: slide-up-fade-in ease 2s;
+  -ms-animation-iteration-count: 1;
 }
 
-@keyframes slide-up-fade-in{
-    0% {
-        opacity:0;
-        transform:  translate(0px,40px)  ;
-    }
-    100% {
-        opacity:1;
-        transform:  translate(0px,0px)  ;
-    }
+@keyframes slide-up-fade-in {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
 }
 
-@-moz-keyframes slide-up-fade-in{
-    0% {
-        opacity:0;
-        -moz-transform:  translate(0px,40px)  ;
-    }
-    100% {
-        opacity:1;
-        -moz-transform:  translate(0px,0px)  ;
-    }
+@-moz-keyframes slide-up-fade-in {
+  0% {
+    opacity: 0;
+    -moz-transform: translate(0px, 40px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translate(0px, 0px);
+  }
 }
 
 @-webkit-keyframes slide-up-fade-in {
-    0% {
-        opacity:0;
-        -webkit-transform:  translate(0px,40px)  ;
-    }
-    100% {
-        opacity:1;
-        -webkit-transform:  translate(0px,0px)  ;
-    }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(0px, 40px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0px, 0px);
+  }
 }
 
 @-o-keyframes slide-up-fade-in {
-    0% {
-        opacity:0;
-        -o-transform:  translate(0px,40px)  ;
-    }
-    100% {
-        opacity:1;
-        -o-transform:  translate(0px,0px)  ;
-    }
+  0% {
+    opacity: 0;
+    -o-transform: translate(0px, 40px);
+  }
+  100% {
+    opacity: 1;
+    -o-transform: translate(0px, 0px);
+  }
 }
 
 @-ms-keyframes slide-up-fade-in {
-    0% {
-        opacity:0;
-        -ms-transform:  translate(0px,40px)  ;
-    }
-    100% {
-        opacity:1;
-        -ms-transform:  translate(0px,0px)  ;
-    }
+  0% {
+    opacity: 0;
+    -ms-transform: translate(0px, 40px);
+  }
+  100% {
+    opacity: 1;
+    -ms-transform: translate(0px, 0px);
+  }
 }
 
 /**BKG ANIMATION**/
-.fade-in{
-    animation: fade-in ease 1s;
-    animation-iteration-count: 1;
-    -webkit-animation: fade-in ease 1s;
-    -webkit-animation-iteration-count: 1;
-    -moz-animation: fade-in ease 1s;
-    -moz-animation-iteration-count: 1;
-    -o-animation: fade-in ease 1s;
-    -o-animation-iteration-count: 1;
-    -ms-animation: fade-in ease 1s;
-    -ms-animation-iteration-count: 1;
+.fade-in {
+  animation: fade-in ease 1s;
+  animation-iteration-count: 1;
+  -webkit-animation: fade-in ease 1s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation: fade-in ease 1s;
+  -moz-animation-iteration-count: 1;
+  -o-animation: fade-in ease 1s;
+  -o-animation-iteration-count: 1;
+  -ms-animation: fade-in ease 1s;
+  -ms-animation-iteration-count: 1;
 }
 
-@keyframes fade-in{
-    0% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@-moz-keyframes fade-in{
-    0% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fade-in {
-    0% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-o-keyframes fade-in {
-    0% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-ms-keyframes fade-in {
-    0% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .projectContainer {
   margin-bottom: 15px;
 }
 
+.designContainer {
+  margin-bottom: 15px;
+}
+
+.designDescrip {
+  background: #cab9d9;
+  z-index: 50;
+}
+
+.designDescrip:nth-child(odd) {
+  margin: 30px -30px 30px 30px;
+}
+
+.designDescrip:nth-child(even) {
+  margin: 30px 30px 30px -30px;
+}
+
+.designImage {
+  padding: 0 !important;
+}
+
+.row.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
 /************HOMEPAGE MAIN CONTAINER END***********/
 
 /************STORE CONTAINER BEGIN***********/
 
-.Store-Main-Container{
-background: black;
-display: table;
-width: 100%;
-height: 100%; /* For at least Firefox */
-min-height: 100%;
-    padding: 0px;
+.Store-Main-Container {
+  background: black;
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  padding: 0px;
 }
 
-.Store-Overlay-Text{
-display: table-cell;
-vertical-align: top;
-vertical-align: middle;
-text-align: center;
+.Store-Overlay-Text {
+  display: table-cell;
+  vertical-align: top;
+  vertical-align: middle;
+  text-align: center;
 }
 
-
-.Store-Overlay-Text .btn{
-font-family: 'Lato', sans-serif;
-text-transform: uppercase;
-font-size: 35px;
-color: whitesmoke;
-text-align: center;
+.Store-Overlay-Text .btn {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 35px;
+  color: whitesmoke;
+  text-align: center;
 }
 
 .gst-btn-Store {
@@ -266,8 +303,7 @@ text-align: center;
   outline: none;
   text-decoration: none;
   -webkit-transition: background-color 0.2s ease-out, color 0.2s ease-out;
-  transition: background-color 0.2s ease-out,
-              color 0.2s ease-out;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
 }
 .gst-btn-Store:hover,
 .gst-btn-Store:focus,
@@ -275,73 +311,69 @@ text-align: center;
   background-color: whitesmoke;
   color: #000;
   -webkit-transition: background-color 0.3s ease-in, color 0.3s ease-in;
-  transition: background-color 0.3s ease-in,
-              color 0.3s ease-in;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
 
 /************STORE CONTAINER END***********/
 
 /************ABOUT CONTAINER BEGIN***********/
 #mc_embed_signup {
-    background:#000; 
-    color: white; 
-    clear:left; 
-    font:14px Helvetica,Arial,sans-serif; 
-    width:100%; 
-    margin-top:20px;
+  background: #000;
+  color: white;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 100%;
+  margin-top: 20px;
 }
 
-#mce-EMAIL{
-    border: 1px solid #2b2b2b !important;
-    border-radius: 0 !important;
-    background: #2b2b2b !important;
+#mce-EMAIL {
+  border: 1px solid #2b2b2b !important;
+  border-radius: 0 !important;
+  background: #2b2b2b !important;
 }
 
-#mc-embedded-subscribe{
-    background: black !important;
-    color: whitesmoke !important;
-    border: 1px solid whitesmoke !important;
-    border-radius: 0 !important;
-} 
+#mc-embedded-subscribe {
+  background: black !important;
+  color: whitesmoke !important;
+  border: 1px solid whitesmoke !important;
+  border-radius: 0 !important;
+}
 
 #mc-embedded-subscribe:hover,
 #mc-embedded-subscribe:active,
-#mc-embedded-subscribe:focus{
-    background: whitesmoke !important;
-    color: black !important;
-    -webkit-transition: background-color 0.3s ease-in, color 0.3s ease-in;
-  transition: background-color 0.3s ease-in,
-              color 0.3s ease-in;
+#mc-embedded-subscribe:focus {
+  background: whitesmoke !important;
+  color: black !important;
+  -webkit-transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
 
 /************ABOUT CONTAINER END***********/
 
 /************GALLERY CONTAINER BEGIN***********/
 
-.Gallery-Main-Container{
-background: black;
+.Gallery-Main-Container {
+  background: black;
 }
 
-.Gallery-Block-Container{
-vertical-align: middle;
-text-align: center;
-margin-top: 100px;
+.Gallery-Block-Container {
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .Gallery-Block-Container img {
-    margin-bottom: 30px;
-    width: 100%;
+  margin-bottom: 30px;
+  width: 100%;
 }
-
 
 /************GALLERY CONTAINER END***********/
 
 /************SOCIAL CONTAINER BEGIN***********/
 
 #es-header .es-title {
-color: #ffffff !important;
+  color: #ffffff !important;
 }
-
 
 /************SOCIAL CONTAINER END***********/
 
@@ -350,7 +382,8 @@ color: #ffffff !important;
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://s3.amazonaws.com/content.kubiartwork.com/images/hero/hero_walking_1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://s3.amazonaws.com/content.kubiartwork.com/images/hero/hero_walking_1.jpg");
 
   /* Set a specific height */
   height: 50%;
