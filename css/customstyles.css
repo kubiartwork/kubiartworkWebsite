@@ -78,6 +78,10 @@ body {
 }
 }
 
+.navbar-default .navbar-collapse {
+  border-color: black;
+}
+
 /************NAVBAR END***********/
 /************FOOTER BEGIN***********/
 .footer {
