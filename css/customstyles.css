@@ -23,14 +23,34 @@ body {
   text-align: center;
   position: fixed;
   top: 0;
+  margin-top: 15px;
   font-family: "Lato", sans-serif;
   width: 100%;
   z-index: 999;
 }
 
+.navbar-brand#myBrand h2{ 
+  font-family: 'Caprasimo', serif;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
+
+.navbar-brand#myBrand p{
+  color: #61e9c9;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.navbar-default ul.navbar-nav {
+  margin-top: 10px;
+}
+
 .navbar-default .navbar-nav > li > a {
   color: #61e9c9;
-  padding: 15px 65px;
+  padding: 15px 2em;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -45,7 +65,7 @@ body {
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
+  text-align: right;
 }
 
 /************NAVBAR END***********/
