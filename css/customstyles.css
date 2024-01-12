@@ -50,7 +50,7 @@ body {
   padding: 15px 1em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-default .navbar-nav > li > a {
   padding: 15px 2em;
 }
