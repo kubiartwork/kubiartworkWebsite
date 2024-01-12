@@ -82,6 +82,14 @@ body {
 }
 /************FOOTER END***********/
 
+/************STANDARD CONTAINER BEGIN***********/
+
+.first-container {
+  margin-top: 90px;
+}
+
+/************STANDARD CONTAINER END***********/
+
 /************HOMEPAGE MAIN CONTAINER BEGIN***********/
 
 .HomePage-BKG-Image {
