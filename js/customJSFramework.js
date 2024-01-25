@@ -8,8 +8,7 @@ function getCurrentYear() {
 
 
 
-$('.grid').masonry({
-  // options...
-  itemSelector: '.grid-item',
-  columnWidth: 200
+var msnry = new Masonry( '.grid', {
+  columnWidth: 200,
+  itemSelector: '.grid-item'
 });
