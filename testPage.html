@@ -146,7 +146,8 @@
     };
     getCurrentYear();
 
-var $grid = $(".grid").imagesLoaded(function () {
+    function runMasonryLayout() {
+      var $grid = $(".grid").imagesLoaded(function () {
   // init Masonry after all images have loaded
   $(".grid").masonry({
     itemSelector: ".grid-item",
@@ -156,6 +157,9 @@ var $grid = $(".grid").imagesLoaded(function () {
     horizontalOrder: true
   });
 });
+    };
+    runMasonryLayout();
+
     
   </script>
   
