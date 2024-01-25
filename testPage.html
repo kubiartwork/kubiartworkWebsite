@@ -20,7 +20,8 @@
   <!--<link href="ie10-viewport-bug-workaround.css" rel="stylesheet">-->
 
   <!----CUSTOM STYLES BEGIN----->
-<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
 
   <link href="./css/customstyles.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
@@ -143,7 +144,20 @@
       $(".currYear").text(n);
     };
     getCurrentYear();
+
+var $grid = $(".grid").imagesLoaded(function () {
+  // init Masonry after all images have loaded
+  $(".grid").masonry({
+    itemSelector: ".grid-item",
+    columnWidth: ".grid-sizer",
+    percentPosition: true,
+    fitWidth: true,
+    horizontalOrder: true
+  });
+});
+    
   </script>
+  
 
 </body>
 
