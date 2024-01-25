@@ -6,3 +6,12 @@ function getCurrentYear() {
 };
   
 
+function runMasonryLayout() {
+  $(".grid").masonry({
+    itemSelector: ".grid-item",
+    columnWidth: ".grid-sizer",
+    percentPosition: true,
+    fitWidth: true,
+    horizontalOrder: true
+  });
+};
