@@ -478,7 +478,11 @@ max-width:1200px;
 
 .grid-sizer,
 .grid-item {
-  width: 33%;
+  width: 48%;
+}
+
+@media (min-width:768px){
+	.grid-sizer, .grid-item{width:33%;}
 }
 
 .grid-item {
