@@ -6,6 +6,16 @@ function getCurrentYear() {
 };
   
 
+// element
+imagesLoaded( document.querySelector('#container'), function( instance ) {
+  console.log('all images are loaded');
+});
+// selector string
+imagesLoaded( '#container', function() {...});
+// multiple elements
+var posts = document.querySelectorAll('.post');
+imagesLoaded( posts, function() {...});
+
 
 
 // vanilla JS
