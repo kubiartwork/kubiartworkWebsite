@@ -9,12 +9,8 @@ function getCurrentYear() {
 // element
 imagesLoaded( document.querySelector('#container'), function( instance ) {
   console.log('all images are loaded');
-});
 
-
-
-
-// vanilla JS
+  // vanilla JS
 // init with element
 var grid = document.querySelector('.grid');
 var msnry = new Masonry( grid, {
@@ -27,3 +23,10 @@ var msnry = new Masonry( grid, {
 var msnry = new Masonry( '.grid', {
   // options...
 });
+  
+});
+
+
+
+
+
